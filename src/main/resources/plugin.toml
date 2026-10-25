@@ -1,0 +1,6 @@
+api = 1
+
+id = "ExamplePlugin"
+version = "0.0.1"
+author = "BoatUtils" # You!
+entrypoint = "com.example.icestom_plugin.ExamplePlugin"
