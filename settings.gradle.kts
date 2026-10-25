@@ -1,1 +1,1 @@
-rootProject.name = "TCTSIcestom"
+rootProject.name = "IcestomMaintenance"

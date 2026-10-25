@@ -2,7 +2,7 @@ plugins {
     id("java")
 }
 
-group = "com.example"
+group = "io.gitlab.icestom"
 
 repositories {
     mavenCentral()
@@ -12,7 +12,7 @@ repositories {
 val runIcestom: Configuration by configurations.creating
 
 dependencies {
-    val icestomVersion = "io.gitlab.icestom:IceStom:0.4.0"
+    val icestomVersion = "io.gitlab.icestom:IceStom:0.4.1"
 
     compileOnly(icestomVersion)
     runIcestom(icestomVersion)
